@@ -1,0 +1,213 @@
+body {
+  background: rgb(59, 59, 59);
+  overflow:hidden;
+}
+
+#logo-app-container {
+  height: 220px;
+  width: 220px;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-app-menu {
+  height: 15vh;
+  width: 15vh;
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 35%;
+}
+
+.login-app-menu{
+  height: 15vh;
+  width: 15vh;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 35%;
+}
+
+#logo-login{
+  margin-bottom: 65vh;
+  
+}
+
+#ventana-titulo-login {
+  z-index: 10;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #335c81;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#ventana-titulo-login .title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: auto;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#ventana-titulo-registro {
+  z-index: 10;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #335c81;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#ventana-titulo-registro .title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 34%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.back-button {
+  z-index: 200;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.botones {
+  padding: 10px 20px;
+  width: 220px;
+  transition: 0.2s;
+  box-shadow: 6px 6px 20px -4px black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #335c81;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 17px;
+  margin-bottom: 40px;
+}
+
+.botones:hover {
+  background-color: #1d364b;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: 4rem;
+}
+
+.container-login {
+  z-index: 101;
+  position: absolute;
+  margin-top: 10vh;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-registro {
+  z-index: 101;
+  position: absolute;
+  margin-top: 16vh;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aspecto-botones-intro {
+  padding: 10px 20px;
+  width: 230px;
+  background-color: #335c81;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 19px;
+  border-color: white;
+  border-width: 4px;
+  margin-bottom: 45px;
+  color: white;
+}
+
+#contenedor-botones-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.button-menu {
+  padding: 10px 20px;
+  width: 180px;
+  background-color: #335c81;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  border-radius: 19px;
+  color: white;
+}
+
+#contenedor-botones-registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.aspecto-botones-intro-registro {
+  padding: 10px 20px;
+  width: 230px;
+  background-color: #335c81;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 19px;
+  border-color: white;
+  border-width: 4px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #335c81;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 9999;
+  color: white;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+}

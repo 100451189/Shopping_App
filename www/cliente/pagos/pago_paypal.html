@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <title>Pago datos paypal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_pagos.css"> 
+</head>
+
+<body  onload="actualizarTotal()">
+
+  <header id="header_pago_paypal">
+    <img  class="back-button" src="../../images/back-button.png" alt="boton_atras" onclick="window.location.href = 'metodo_pago.html'">
+    <p>Datos de pago</p>
+  </header>
+
+  <div id="popup">
+    <p id="contenido-popup"></p>
+  </div>
+
+  <div id="div_informacion_paypal">
+    <p>Información de Paypal</p>
+    <input id="correo_paypal" class="input_paypal" type="text" name="email" placeholder="Email (con '@' y '.')">
+    <input id="password_paypal" class="input_paypal" type="text" name="password" placeholder="Contraseña">
+  </div>
+
+  <footer id="footer_pago_paypal">
+    <hr>
+    <p class="precio_final" id="precio_final">Total: 74,95€</p>
+    <p>Rellene los campos de información de su cuenta de Paypal y pulse en el botón <span class="pagar">Pagar
+       </span>. A continuación se generará el código QR. Acuda a caja con su compra y muestre el código al
+       dependiente.</p>
+    <button class="boton_pagar" onclick="comprobar_campos_paypal()">Pagar</button>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="pagos.js"></script>
+
+</body>
+
+</html>

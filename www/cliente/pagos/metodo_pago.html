@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <title>Metodo de pago</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_metodo_pago.css"> 
+</head>
+
+<body  onload="actualizarTotal()">
+
+  <header id="header_pago">
+    <img  class="back-button" src="../../images/back-button.png" alt="boton_atras" onclick="window.location.href='../tienda/carrito/carrito.html'">
+    <p>Método de pago</p>
+  </header>
+
+  <div id="div_botones_pago">
+    <button id="boton_efectivo" class="boton_pago">Efectivo</button>
+    <button id="boton_tarjeta" class="boton_pago" onclick="window.location.href = 'pago_tarjeta.html'">Tarjeta</button>
+    <button id="boton_paypal" class="boton_pago" onclick="window.location.href = 'pago_paypal.html'">Paypal</button>
+  </div>
+
+  <footer id="footer_pago">
+    <hr>
+    <p class="precio_final" id="precio_final"></p>
+    <p>Seleccione el método de pago que desee utilizar. A continuación se generará un código QR. 
+      Acuda a caja con su compra y muestre el código QR al dependiente.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="pagos.js"></script>
+
+</body>
+
+</html>

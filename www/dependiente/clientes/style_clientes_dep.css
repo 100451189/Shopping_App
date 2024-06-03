@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.barra-superior {
+  background-color: #335c81;
+  color: #fff;
+  text-align: center;
+  height: 10vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.back-button {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.back-button:hover {
+  cursor: pointer;
+}
+
+#txt_barra {
+  padding-top: 3vh;
+}
+
+.lista-usuarios {
+  list-style-type: none; 
+}
+
+
+
+.lista-usuarios li {
+  height: 7vw;    
+  text-align: center;
+  line-height: 6vw;
+  font-size: 3vh;
+  border-bottom: 2px solid #000000; 
+}
+
+li:hover{
+  cursor: pointer;
+  background-color: cornsilk;
+}
+
+
+#container_lista{
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.info_usuario {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.info_cliente {
+  color: rgb(0, 0, 0);
+  padding: 2vw;
+  font-size: 22px;
+  justify-content: left;
+  align-items: left;
+  margin-left: 5vw;
+}
+
+.info_cliente_favorito {
+  color: rgb(0, 0, 0);
+  padding: 2vw;
+  font-size: 18px;
+  justify-content: left;
+  align-items: left;
+  margin-left: 5vw;
+}
+
+
+.btn_compra{
+  display: flex;
+  width: 20vh;
+  height: 10vh;
+  background-color: #335c81;
+  margin: 4vh;
+  margin-left: 7vw;
+  border-radius: 5vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
+  font-weight: bolder;
+}
+
+.btn_compra:hover{
+  background-color: #183147;
+  cursor:pointer;
+}
+

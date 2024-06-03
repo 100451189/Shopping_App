@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <title>Pago datos tarjeta</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_pagos.css"> 
+</head>
+
+<body  onload="actualizarTotal()">
+
+  <header id="header_pago_tarjeta">
+    <img  class="back-button" src="../../images/back-button.png" alt="boton_atras" onclick="window.location.href = 'metodo_pago.html'">
+    <p>Datos de pago</p>
+  </header>
+
+  <div id="popup">
+    <p id="contenido-popup"></p>
+  </div>
+
+  <div id="div_informacion_tarjeta">
+    <p>Información de la tarjeta</p>
+    <input id="nombre_tarjeta" class="input_tarjeta" type="text" name="nombre" placeholder="Nombre completo">
+    <input id="fecha_nac_tarjeta" class="input_tarjeta" type="text" name="fecha_nac" placeholder="F. nacimiento (DD-MM-AAAA)">
+    <input id="direccion_tarjeta" class="input_tarjeta" type="text" name="direccion" placeholder="Dirección">
+    <input id="ciudad_tarjeta" class="input_tarjeta" type="text" name="ciudad" placeholder="Ciudad">
+    <input id="pais_tarjeta" class="input_tarjeta" type="text" name="pais" placeholder="País">
+    <input id="numero_tarjeta" class="input_tarjeta" type="text" name="numero_tar" placeholder="Número tarjeta (solo numeros)">
+    <input id="fecha_cad_tarjeta" class="input_tarjeta" type="text" name="fecha_cad" placeholder="F. caducidad (MM-AA)">
+    <input id="cvv_tarjeta" class="input_tarjeta" type="text" name="cvv" placeholder="CVV">
+  </div>
+
+  <footer id="footer_pago_tarjeta">
+    <hr>
+    <p class="precio_final" id="precio_final">Total: 74,95€</p>
+    <p>Rellene los campos de información de su tarjeta y pulse en el botón <span class="pagar">Pagar</span>
+       . A continuación se generará el código QR. Acuda a caja con su compra y muestre el código al
+       dependiente.</p>
+    <button class="boton_pagar" onclick="comprobar_campos_tarjeta()">Pagar</button>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="pagos.js"></script>
+
+</body>
+
+</html>

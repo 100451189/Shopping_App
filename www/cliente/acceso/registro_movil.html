@@ -1,0 +1,37 @@
+<html lang="es">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Shopping App</title>
+  <link rel="stylesheet" href="../style_client.css">
+
+</head>
+
+<body>
+
+  <div id="ventana-titulo-registro">
+      <img  class="back-button" src="/images/back-button.png" alt="boton_atras" onclick="atrasMenuRegistro()">
+      <span class="title">Registro</span>
+  </div>
+  <div id="popup">
+    <p id="contenido-popup"></p>
+  </div>
+    <!--Logo de la aplicacion del registro con menor tamaño-->
+    <img class="logo-app-menu" src="/images/logo_app.png" alt="Shopping App Logo">
+    <div class="container-registro">
+      <div id="contenedor-botones-registro">
+        <input id="email_reg" class="aspecto-botones-intro-registro" name="intro-email" type="text" placeholder="Email">
+        <input id="usuario_reg" class="aspecto-botones-intro-registro" name="intro-usuario" type="text" placeholder="Usuario">
+        <input id="contraseña_reg" class="aspecto-botones-intro-registro" name="intro-contraseña" type="password" placeholder="Contraseña">
+        <input id="repetir-contraseña_reg" class="aspecto-botones-intro-registro" name="intro-repetir" type="password" placeholder="Repetir contraseña">
+        <button class="button-menu" onclick="registrarUsuario()">Registrarse</button>
+      </div>
+    </div>
+ 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../script_client.js"></script>
+  
+</body>
+</html>

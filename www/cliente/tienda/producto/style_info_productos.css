@@ -1,0 +1,152 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: white;
+  height: 100%;
+}
+
+svg {
+  height: 40px;
+  width:40px;
+}
+
+.back-button {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+header {
+  z-index: 10;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  text-align: center;
+  background-color: #335c81;
+  border-bottom: 1px solid black;
+  color: white;
+  padding: 10px;
+}
+
+header .title {
+  position: absolute;
+  z-index: 10;
+  font-family: 'Segoe UI';
+  font-size: 30px;
+  font-weight: bold;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header .shopping-cart {
+  display: flex;
+  position: absolute;
+  left: 82%;
+  top: 4px;
+}
+
+.foto_producto {
+  margin-top: 100px;
+  width: 50%;
+  max-width: 200px;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto_producto img {
+  width: 110%;
+  height: 90%;
+}
+
+.foto_producto p {
+  font-family: 'Segoe UI';
+  font-weight: bold;
+}
+
+.tipo_producto {
+  margin-bottom: -15px;
+}
+
+.nombre_producto {
+  font-size: 23px;
+}
+
+.caracteristicas_producto {
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  width: 70%;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.caracteristicas_producto p {
+  color: rgb(80, 80, 80);
+}
+
+.descripcion_producto {
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  width: 70%;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(80, 80, 80);
+}
+
+.descripcion_producto h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+.boton_agregar {
+  text-align: center;
+  width: 70%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boton_agregar button {
+  margin-bottom: 10px;
+  background-color: #335c81;
+  color: white;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  border-radius: 17px;
+  padding: 6px;
+}
+
+.boton_agregar button svg {
+  height: 15px;
+  width: 15px;
+  fill: white;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #335c81;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 9999;
+  color: white;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+}

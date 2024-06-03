@@ -1,0 +1,43 @@
+<html lang="es">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Shopping App</title>
+  <link rel="stylesheet" href="style-carrito.css">
+
+</head>
+
+<body>
+
+  <div id="ventana-titulo-carrito">
+    <header>
+      <img  class="back-button" src="/images/back-button.png" alt="boton_atras" onclick="volverTienda()">
+      <span class="title">CARRITO</span>
+      
+    </header>
+  </div>
+
+  <div id="popup">
+    <p id="contenido-popup"></p>
+  </div>
+
+  <div class="cart-wrapper">
+  <div class="container-carrito" id="container-carrito">
+  
+  </div>
+
+  <div id="container-pago">
+    <p id="total">TOTAL: 0€</p>
+    <button class="botones" id="btn_pagar" onclick="window.location.href='../../pagos/metodo_pago.html'">FINALIZAR COMPRA</button>
+
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="carrito.js"></script>
+  
+</body>
+</html>

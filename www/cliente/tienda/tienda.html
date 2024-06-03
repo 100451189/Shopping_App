@@ -1,0 +1,80 @@
+<html lang="es">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Shopping App</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  <link rel="stylesheet" href="style_tienda.css">
+
+</head>
+
+<body>
+
+  <div id="ventana-titulo-catalogo">
+    <header>
+      <span class="title">CATÁLOGO</span>
+      <img  class="code-scanner" src="/images/scanner-code-bar.png" alt="code-scanner" onclick="abrirEscaner()">
+      <div class="shopping-cart" id="shopping-cart" >
+        <!--Para la inclusion del icono del carro se hace uso de un svg obtenido de la pagina flowbite.com-->
+        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#171f25" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" d="M4 4a1 1 0 0 1 1-1h1.5a1 1 0 0 1 .979.796L7.939 6H19a1 1 0 0 1 .979 1.204l-1.25 6a1 1 0 0 1-.979.796H9.605l.208 1H17a3 3 0 1 1-2.83 2h-2.34a3 3 0 1 1-4.009-1.76L5.686 5H5a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
+        </svg>       
+      </div>
+      
+      <div class="search-bar">
+        <!--Barra de busqueda de parte superior de la interfaz, junto al botón de filtrado-->
+        <div class="container-barra">
+          <input type="text" id="searchInput" placeholder="Buscar..." autocomplete="off" autofocus>
+          <button type="button" id="microfono_activar">
+            <i class="fas fa-microphone"></i>
+          </button>
+          <button type="button" id="microfono_desactivar">
+            <i class="fas fa-microphone-slash"></i>
+          </button>
+        </div>
+        <button id="btn_filtros">Filtros</button>
+        <button id="btn_buscar">Buscar</button>
+      
+      </div>
+    </header>
+  </div>
+
+  <div id="popup">
+    <p id="contenido-popup"></p>
+  </div>
+
+  <div class="container-catalogo" id="container-catalogo">
+  
+  </div>
+
+  <!-- Modal de filtros -->
+  <div id="modal_filtros" class="modal">
+    <div class="modal-content">
+      <p id="txt_modal">Filtrar por...</p>
+      <button class="boton_filtro" id="btn_categoria">Categoría</button>
+      <button class="boton_filtro" id="btn_Nombre">Nombre [A-Z]</button>
+      <button class="boton_filtro" id="btn_Precio_asc">Precio ascendente</button>
+      <button class="boton_filtro" id="btn_Precio_desc">Precio descendente</button>
+    </div>
+  </div>
+
+
+  <!-- Modal de filtros -->
+  <div id="modal_filtros_categoria" class="modal">
+    <div class="modal-content">
+      <p id="txt_modal">Categorías</p>
+      <button class="boton_filtro" id="btn_Ropa">Ropa</button>
+      <button class="boton_filtro" id="btn_Tecnologia">Tecnología</button>
+      <button class="boton_filtro" id="btn_Libros">Libros</button>
+      <button class="boton_filtro" id="btn_Alimentacion">Alimentación</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="tienda.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#barra-superior {
+    background-color: #335c81;
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 2  ;
+}
+
+#txt_barra {
+    margin-top: 3%;
+    padding-top: 1.5vh;
+    font-size: 27px;
+}
+
+#container-lista{
+    z-index: 1;
+    height: 90vh;
+    padding-top: 10vh;
+}
+
+.producto{
+    background-color: rgb(166, 166, 166);
+    height: 15vh;
+    margin-top: 1vh;
+    border: #335c81;
+    border-width: 5px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+}
+
+.back-button {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+.producto:hover{
+    background-color: #7e7e7e;
+}
+
+.img_producto{
+    width: 11vh;
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+
+.bloque_info_producto{
+    margin-left: 5vw;
+    display: block;
+    align-items: center;
+    height: 15vh;
+}
+
+.info_producto{
+    margin: 1.75vh;
+    font-weight: bolder;
+    position: relative;
+}
+
+button{
+    height: 7.5vh;
+    margin-top: 3vh;
+    margin-right: 7vw;
+    width: 10vw;
+    background-color:#335c81;
+    border-radius: 5px;
+}
+
+#pagina-producto{
+    z-index: 1;
+    height: 90vh;
+    padding-top: 10vh;
+    justify-content: center;
+    display: grid;
+    width: 100%;
+}
+
+
+#btn_validar{
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+
+#container-lista-validar{
+    z-index: 1;
+    height: 80vh;
+    padding-top: 10vh;
+}
+
+
+

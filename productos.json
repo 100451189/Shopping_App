@@ -1,0 +1,160 @@
+[
+    {
+        "id": "1",
+        "nombre": "Ready Player One",
+        "imagen": "/images/libro-ready.png",
+        "resumen": "Primera Edición.\nAutor: Ernest Cline.\nEditorial: Penguin Random House.\nGénero: Sci-Fi.\nIdioma: Español.",
+        "precio": 19.85,
+        "categoria": "Libros",
+        "cantidad": 76,
+        "localizacion": "Sector Libros, 1er pasillo derecha, Estante 3A",
+        "descripcion": "En un mundo virtual de escape, un joven busca un tesoro que le dará poder y fortuna, pero deberá superar retos y enemigos para lograrlo."
+    },
+
+    {
+        "id": "13",
+        "nombre": "Cascos Inalámbricos",
+        "imagen": "/images/cascos.png",
+        "resumen": "Tipo: Cascos Bluetooth.\nMarca: JBL.\nModelo: Live 460NC.\nColor: Negro.",
+        "precio": 69.99,
+        "categoria": "Tecnología",
+        "cantidad": 12,
+        "localizacion": "Sector Tecnología, 9no pasillo derecha, Estante 3D",
+        "descripcion": "Cascos Inalámbricos:\n¡Disfruta de la música y las llamadas con total libertad!\nEstos son sin duda los que mejor se adaptarán a tu estilo de vida."
+    },
+    
+    {
+        "id": "9",
+        "nombre": "Pantalones Vaqueros",
+        "imagen": "/images/pantalones.png",
+        "resumen": "Tipo: Pantalón.\nGénero: Hombre.\nMarca: Nike.\nColor: Negro.\nTallas: XS/S/M/L.",
+        "precio": 32.99,
+        "categoria": "Ropa",
+        "cantidad": 23,
+        "localizacion": "Sector Ropa, 7mo pasillo derecha, Estante 6C",
+        "descripcion": "Pantalones vaqueros:\n¡Un básico imprescindible en tu armario!\nComodidad y estilo a partes iguales: Perfectos para cualquier ocasión."
+    },
+    
+    {
+        "id": "3",
+        "nombre": "Juego de Tronos",
+        "imagen": "/images/libro-juego-tronos.png",
+        "resumen": "Novena Reimpresión.\nAutor: George R.R.Martin.\nEditorial: Gigamesh\nGénero: Fantasía oscura.\nIdioma: Español.",
+        "precio": 26.50,
+        "categoria": "Libros",
+        "cantidad": 92,
+        "localizacion": "Sector Libros, 1er pasillo derecha, Estante 4B",
+        "descripcion": "Nobles luchan por el trono. Invierno y amenaza sobrenatural se acercan. Intrigas, traiciones y batallas épicas."
+    },   
+    
+    {
+        "id": "8",
+        "nombre": "Camiseta Deportiva",
+        "imagen": "/images/camiseta.png",
+        "resumen": "Tipo: Camiseta.\nGénero: Unisex.\nMarca: Sprinter.\nColor: Negro.\nTallas: S/M/L.",
+        "precio": 15.55,
+        "categoria": "Ropa",
+        "cantidad": 53,
+        "localizacion": "Sector Ropa, 7mo pasillo izquierda, Estante 2B",
+        "descripcion": "Camiseta deportiva:\n¡Muévete con estilo y comodidad!\nTejido transpirable y ligero: Ideal para practicar deporte."
+    },
+
+    {
+        "id": "4",
+        "nombre": "El nombre del viento",
+        "imagen": "/images/libro-viento.png",
+        "resumen": "Segunda Edición.\nAutor: Patrick Rothfuss.\nEditorial: Orion P.G.\nGénero: Fantasía heroica.\nIdioma: Inglés.",
+        "precio": 23.65,
+        "categoria": "Libros",
+        "cantidad": 85,
+        "localizacion": "Sector Libros, 1er pasillo derecha, Estante 5B",
+        "descripcion": "Kvothe, un joven prodigio busca venganza tras la tragedia que asoló su familia. Se sumergirá en un viaje que le llevará a enfrentarse a peligros y descubrir la verdad sobre su pasado."
+    },
+
+    {
+        "id": "5",
+        "nombre": "Chicles de Menta",
+        "imagen": "/images/chicles.png",
+        "resumen": "Chicles sabor a menta duradero, sin azúcar y perfectos para cualquier momento del día.",
+        "precio": 3.95,
+        "categoria": "Alimentación",
+        "cantidad": 48,
+        "localizacion": "Sector Alimentación, 3er pasillo izquierda, Estante 18F",
+        "descripcion": "¡Refresca tu aliento y combate la caries con nuestros deliciosos chicles de menta!\nDisfruta de un sabor a menta fresco y duradero con nuestros chicles sin azúcar, ideales para mantener tu aliento fresco y combatir la caries en cualquier momento del día."
+    },
+
+    {
+        "id": "2",
+        "nombre": "American Psycho",
+        "imagen": "/images/libro-ampsycho.png",
+        "resumen": "Tercera Edición.\nAutor: Bret Easton Ellis.\nEditorial: V.B\nGénero: Thriller.\nIdioma: Inglés.",
+        "precio": 15.45,
+        "categoria": "Libros",
+        "cantidad": 133,
+        "localizacion": "Sector Libros, 1er pasillo izquierda, Estante 6C",
+        "descripcion": "Patrick Bateman, un exitoso yuppie asesino disfruta lujos y asesina brutalmente. Doble vida lo lleva al límite."
+  
+    },
+
+    {
+        "id": "10",
+        "nombre": "Sudadera Streetwear",
+        "imagen": "/images/sudadera.png",
+        "resumen": "Tipo: Sudadera.\nGénero: Unisex.\nMarca: Bershka.\nColor: Azul.\nTallas: M/L.",
+        "precio": 25.99,
+        "categoria": "Ropa",
+        "cantidad": 34,
+        "localizacion": "Sector Ropa, 8vo pasillo derecha, Estante 13D",
+        "descripcion": "Sudadera Streetwear: ¡Exprésate con estilo urbano!\nMuestra tu personalidad única con una sudadera streetwear."
+    },
+
+    {
+        "id": "6",
+        "nombre": "Gominolas Ositos Haribo",
+        "imagen": "/images/haribo.png",
+        "resumen": "Gominolas blandas con forma de ositos en una variedad de colores y sabores frutales.",
+        "precio": 2.25,
+        "categoria": "Alimentación",
+        "cantidad": 88,
+        "localizacion": "Sector Alimentación, 3er pasillo izquierda, Estante 18C",
+        "descripcion": "Gominolas clásicas.\nTextura suave.\nSabores irresistibles.\n¡Ideales para compartir!"
+    },
+
+
+    {
+        "id": "12",
+        "nombre": "Monitor de Escritorio",
+        "imagen": "/images/monitor.png",
+        "resumen": "Tipo: Monitor LED.\nMarca: Lumina.\nModelo: LM-27QHD.\nColor: Negro.",
+        "precio": 99.99,
+        "categoria": "Tecnología",
+        "cantidad": 20,
+        "localizacion": "Sector Tecnología, 9no pasillo izquierda, Estante 4A",
+        "descripcion":"Monitor de Escritorio:\n¡Disfruta de una experiencia visual inigualable!\nEleva tu productividad y entretenimiento con un monitor de escritorio de alta calidad."
+    },
+
+    {
+        "id": "7",
+        "nombre": "Chocolate Toblerone Barra",
+        "imagen": "/images/toblerone.png",
+        "resumen": "Barra de chocolate con forma de prisma triangular.\nPosee un sabor único que mezcla miel, almendras y turrón.",
+        "precio": 4.55,
+        "categoria": "Alimentación",
+        "cantidad": 120,
+        "localizacion": "Sector Alimentación, 3er pasillo derecha, Estante 7A",
+        "descripcion": "Clásica barra de chocolate con forma de sierra.\nCrujiente chocolate con lecho, relleno de nougat de miel y almendras\n¡Experimenta la tradición y su sabor único!"
+    }, 
+
+    {
+        "id": "11",
+        "nombre": "Teclado Gaming",
+        "imagen": "/images/teclado.png",
+        "resumen": "Tipo: Teclado Mecánico.\nMarca: Razer.\nModelo: BlackWidow V3 TKL\nColor: Negro.",
+        "precio": 46.99,
+        "categoria": "Tecnología",
+        "cantidad": 25,
+        "localizacion": "Sector Tecnología, 9no pasillo derecha, Estante 6C",
+        "descripcion": "Teclado Gaming:\n¡Domina el juego con la mejor precisión!\nEleva tu experiencia de juego con un teclado gaming de alto rendimiento."
+    }
+
+]

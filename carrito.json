@@ -1,0 +1,28 @@
+[
+    {
+        "usuario": "jorge",
+        "lista": [],
+        "pagado": false
+    },
+    {
+        "usuario": "Pablo",
+        "lista": [
+        ],
+        "pagado": false
+    },
+    {
+        "usuario": "Tere",
+        "lista": [],
+        "pagado": false
+    },
+    {
+        "usuario": "rob",
+        "lista": [],
+        "pagado": false
+    },
+    {
+        "usuario": "Charly",
+        "lista": [],
+        "pagado": false
+    }
+]
